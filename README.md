@@ -66,9 +66,7 @@ Auto-Reparo de Banco de Dados: Scripts integrados (reparar_banco.py) verificam a
 
 UX Consistency: Máscaras financeiras, máscaras de CPF/Celular e capitalização automática (Title Case) em todos os campos, mantendo a base de dados padronizada e limpa.
 
-📁 Estrutura Modular de Arquivos
-Plaintext
-/ZenMotos_ERP
+📁 /ZenMotos_ERP
 ├── main.py             # Orquestrador principal e Menu Lateral
 ├── atendimento.py      # Core de Vendas, Carrinho e PDF
 ├── clientes.py         # CRM e Integração com API CEP
@@ -79,6 +77,7 @@ Plaintext
 ├── utils.py            # Threads de Backup e Funções de Sistema
 ├── reparar_banco.py    # Ferramenta de manutenção e migração
 └── atualizar_v45/46.py # Versionamento de schema do banco
+
 🌟 Diferencial Competitivo
 O Zen Motos não é apenas um software de gestão; é o resultado de anos de experiência no "trecho" como motoboy, traduzidos em linhas de código que entendem a dor do proprietário de oficina. Cada botão foi pensado para ser acessado com luvas ou mãos sujas (Touch UX), e cada relatório foi desenhado para transmitir o máximo de profissionalismo ao cliente final.
 
