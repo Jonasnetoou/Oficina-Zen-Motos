@@ -66,7 +66,10 @@ Auto-Reparo de Banco de Dados: Scripts integrados (reparar_banco.py) verificam a
 
 UX Consistency: Máscaras financeiras, máscaras de CPF/Celular e capitalização automática (Title Case) em todos os campos, mantendo a base de dados padronizada e limpa.
 
-📁 /ZenMotos_ERP
+### 📂 Estrutura Modular de Arquivos
+
+```text
+/ZenMotos_ERP
 ├── main.py             # Orquestrador principal e Menu Lateral
 ├── atendimento.py      # Core de Vendas, Carrinho e PDF
 ├── clientes.py         # CRM e Integração com API CEP
